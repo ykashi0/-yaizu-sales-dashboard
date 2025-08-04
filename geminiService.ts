@@ -1,5 +1,6 @@
+
 import { GoogleGenAI, Type } from "@google/genai";
-import type { PeriodProgress, SalesMetric, SalesRep } from '../types';
+import type { PeriodProgress, SalesMetric, SalesRep } from '../types.ts';
 
 // The API key must be provided via the `process.env.API_KEY` environment variable.
 // The application must not prompt the user for it.
