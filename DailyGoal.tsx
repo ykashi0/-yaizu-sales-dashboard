@@ -1,6 +1,7 @@
+
 import React, { useState, useEffect } from 'react';
-import Card from './Card';
-import type { PeriodProgress as DailyGoal } from '../types';
+import Card from './Card.tsx';
+import type { PeriodProgress as DailyGoal } from '../types.ts';
 
 interface DailyGoalProps {
   title: string;
