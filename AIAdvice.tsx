@@ -1,7 +1,8 @@
+
 import React, { useState, useEffect } from 'react';
-import Card from './Card';
-import { getAIAdvice } from '../services/geminiService';
-import type { SalesMetric, PeriodProgress, SalesRep } from '../types';
+import Card from './Card.tsx';
+import { getAIAdvice } from '../services/geminiService.ts';
+import type { SalesMetric, PeriodProgress, SalesRep } from '../types.ts';
 
 interface AIAdviceProps {
   title: string;
