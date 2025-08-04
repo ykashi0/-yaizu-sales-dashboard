@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
-import Card from './Card';
-import type { SalesMetric } from '../types';
+import Card from './Card.tsx';
+import type { SalesMetric } from '../types.ts';
 
 interface IndividualMetricsProps {
   title: string;
