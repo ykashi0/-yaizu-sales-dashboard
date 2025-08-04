@@ -1,5 +1,5 @@
 
-import type { DashboardData } from '../types';
+import type { DashboardData } from '../types.ts';
 
 // The Google Apps Script endpoint URL for fetching live dashboard data.
 const DATA_URL = 'https://script.google.com/macros/s/AKfycbzhQtj_DWZ6y4Pp3qc05K67ryxG_TacR1V7AMOQkS13qYlytfAoR-ByOEXfjYiIVcuV/exec';
