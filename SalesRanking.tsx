@@ -1,8 +1,8 @@
 
 import React, { useState, useEffect } from 'react';
-import Card from './Card';
-import { ScoreIndicatorIcon } from '../constants';
-import type { SalesRep } from '../types';
+import Card from './Card.tsx';
+import { ScoreIndicatorIcon } from '../constants.tsx';
+import type { SalesRep } from '../types.ts';
 
 interface SalesRankingProps {
   title: string;
